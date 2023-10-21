@@ -1,0 +1,144 @@
+:root {
+    --cor-menu-background: #FEB72B;
+    --cor-menu-texto: #F4EEC7; 
+    --cor-texto-container: #3d4820;
+    --cor-aside: #CCDA46;
+    
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    color: var(--cor-texto-container);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo-menu {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+.texto-h2 {
+    font-family: 'Archivo Narrow';
+    color:#3d4820
+
+}
+
+.pagragrafo-1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    
+
+}
+
+.page-inicial {
+    background-color: var(--cor-menu-texto);
+}
+img {
+    width: 108%; 
+    margin: 0;
+    border-radius: 7px;
+    object-fit: cover;
+    margin-left: -4%; 
+  
+}
+.aside {
+    background-image: url(../img/aside-02.jpg);
+    width: 20%;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+th, td {
+    border: 5px solid var(--cor-menu-background);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--cor-menu-background)
+}
+
+header, section {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+
+ul li {
+   display: inline;
+    margin-right: 10px;
+
+   
+}
+
+ul li a {
+   text-decoration: none;
+   color: var(--cor-menu-texto)
+}
+
+.conheca-produtos {
+    font-family:'Archivo Narrow'; 
+    font-size: 30px;
+    font-weight: 500;
+    color:var(--cor-menu-texto);
+    background-image: url(../img/high-angle-chocolate-cake-chopping-board-with-fruit.jpg);
+   
+    background-size: cover;
+    background-position:  10% 38%;
+    background-repeat: no-repeat;
+    height: 85%;
+    
+}
+
+.conheca-produtos p {
+margin-left: 10px;
+}
+
+button {
+   background-color: #FEB72B;
+   color: var(--cor-menu-texto);
+   padding: 10px 15px;
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+}
+.frase-container {
+    background-color: var(--cor-menu-background);
+    font-family: 'Alfa Slab One';
+   
+}
+
+.footer {
+    
+    background-image: url(../img/top-view-appetizing-fresh-lemons-yellow-background-citrus-fruit-possesses-various-health-benefits-consumed-by-people-boost-immune-system-ingredient-juice-dishes-citrons-indoor.jpg);
+    background-size: contain;
+    background-size: cover;
+    width: 100%;
+    height: 25%;
+    background-position:  10% 38%;
+    background-repeat: no-repeat;
+    color: var(--cor-menu-texto);
+ 
+}
+
+.footer p {
+    font-size: 'Poppins';
+    font-weight: 600;
+    color: var(--cor-texto-container)
+}
